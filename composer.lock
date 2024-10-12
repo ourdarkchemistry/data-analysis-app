@@ -1,0 +1,118 @@
+{
+    "packages": [
+        {
+            "name": "asm89/stack-cors",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/asm89/stack-cors.git",
+                "reference": "d9f0e3b5390a238c1d2952b6508f4d95fbb77f58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/asm89/stack-cors/zipball/d9f0e3b5390a238c1d2952b6508f4d95fbb77f58",
+                "reference": "d9f0e3b5390a238c1d2952b6508f4d95fbb77f58",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Asm89\\StackCors\\": "src/"
+                }
+            }
+        },
+        {
+            "name": "fideloper/proxy",
+            "version": "4.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fideloper/TrustedProxy.git",
+                "reference": "2769b12a4935eac1f3c887dc1d8aa250f7f51434"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fideloper/TrustedProxy/zipball/2769b12a4935eac1f3c887dc1d8aa250f7f51434",
+                "reference": "2769b12a4935eac1f3c887dc1d8aa250f7f51434",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0",
+                "illuminate/http": "^7.0 || ^8.0 || ^9.0"
+            }
+        },
+        {
+            "name": "laravel/framework",
+            "version": "9.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "9d9ebdbf6c8b74d39ed9ac9eb00581b88c17d7be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/9d9ebdbf6c8b74d39ed9ac9eb00581b88c17d7be",
+                "reference": "9d9ebdbf6c8b74d39ed9ac9eb00581b88c17d7be",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0",
+                "fideloper/proxy": "^4.4",
+                "laravel/tinker": "^2.5",
+                "nesbot/carbon": "^2.54",
+                "nikic/fast-route": "^1.3",
+                "symfony/console": "^5.4",
+                "symfony/http-foundation": "^5.4"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\": "src/"
+                }
+            }
+        },
+        {
+            "name": "laravel/tinker",
+            "version": "2.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/tinker.git",
+                "reference": "7c3e2c9ef5bcafeac154fb8be213fe76c6c54067"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/tinker/zipball/7c3e2c9ef5bcafeac154fb8be213fe76c6c54067",
+                "reference": "7c3e2c9ef5bcafeac154fb8be213fe76c6c54067",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0",
+                "laravel/framework": "^7.0 || ^8.0 || ^9.0"
+            }
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "facade/ignition",
+            "version": "2.18.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facade/ignition.git",
+                "reference": "7e8d6b7c10b7b3250f58fdd885c5735ecb14d92f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/7e8d6b7c10b7b3250f58fdd885c5735ecb14d92f",
+                "reference": "7e8d6b7c10b7b3250f58fdd885c5735ecb14d92f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0",
+                "laravel/framework": "^7.0 || ^8.0 || ^9.0"
+            }
+        }
+    ],
+    "content-hash": "abc123456def7890ghijklmnopqrs987654321",
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
