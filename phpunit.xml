@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php"
+         colors="true"
+         phpVersion="7.4">
+    <testsuites>
+        <testsuite name="Feature Test Suite">
+            <directory>./tests/Feature</directory>
+        </testsuite>
+        <testsuite name="Unit Test Suite">
+            <directory>./tests/Unit</directory>
+        </testsuite>
+    </testsuites>
+
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="DB_CONNECTION" value="sqlite"/>
+        <env name="DB_DATABASE" value=":memory:"/>
+    </php>
+
+    <coverage>
+        <include>
+            <directory>app</directory>
+        </include>
+    </coverage>
+
+    <listeners>
+        <listener class="PHPUnit\Util\PHP\DefaultListener"/>
+    </listeners>
+</phpunit>
